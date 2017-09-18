@@ -4,11 +4,28 @@
 
 
 .nav { 
-	font-weight: bold; 
-	text-transform: uppercase;
 
 
-	a {
-		color: #fff;
+	ul,
+	li {
+		list-style: none;
 	}
+
+	ul {
+
+		li {
+
+			a {
+			color: rgba(255, 255, 255, 0.88);
+
+			&:hover {
+				color: #fff;
+				text-transform: uppercase;
+				font-weight: bold; 
+			}
+			}
+		}
+	}
+
+
 }
