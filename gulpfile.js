@@ -24,5 +24,5 @@ gulp.task('clean', function(cb) {
 
 gulp.task('default', function() {
     gulp.start('clean');
-    gulp.start('scss:watch');
+    gulp.start('sass');
 });
