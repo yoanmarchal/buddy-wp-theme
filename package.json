@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Łukasz Czulak",
   "license": "ISC",
+
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",
