@@ -1,0 +1,21 @@
+/**
+ * 
+ * Utils
+ *
+ */
+
+.clear {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+.reset-box {
+  @include reset-box;
+}
